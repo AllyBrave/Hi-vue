@@ -1,28 +1,28 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <section class="header">
+    <h1>I am learning VueJS</h1>
+    <span>with help of my Mentor</span>
+    <p>Testing the a = {{ a }}</p>
+    <p> obj = {{ obj }}</p>
+  </section>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+const dss = '4'
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
+  data() {
+    return {
+      a: 123,
+      b: "переменная б",
+      obj: {
+        a: 1, b: 2, c: 3, d: dss
+      }
+    }
   }
-}
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
