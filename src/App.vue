@@ -17,7 +17,7 @@ export default {
       a: 123,
       b: "переменная б",
       obj: {
-        a: 1, b: 2, c: 3, d: dss
+        a: 1222, b: 2, c: 3, d: dss
       }
     }
   }
