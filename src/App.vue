@@ -25,4 +25,11 @@ export default {
 </script>
 
 <style>
+
+  section { 
+    display: block;
+  }
+  .header {
+    border-color: coral;
+  }
 </style>
